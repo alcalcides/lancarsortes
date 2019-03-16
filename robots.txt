@@ -1,0 +1,6 @@
+User-agent: *
+
+Disallow: /
+Allow: _views
+Allow: _controls
+Allow: index.php

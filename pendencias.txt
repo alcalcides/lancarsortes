@@ -1,0 +1,9 @@
+criptografia de senha com md5	
+	verificar echo password_hash("rasmuslerdorf", PASSWORD_BCRYPT)."\n"; 
+		from https://pt.stackoverflow.com/questions/113378/usar-md5-%C3%A9-a-maneira-mais-segura-de-se-criptografar-senhas-no-php
+foto para cada perfil de usuário
+foto para cada sorteio
+salvar modelo de sorteio
+script trocar senha
+botão submit de formulário precisa de parâmetro name?
+testar tratamento de horário ao cadastrar sorteio de usuário em outras zonas horárias

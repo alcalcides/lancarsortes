@@ -1,0 +1,30 @@
+@charset="utf-8";
+
+h1{
+	color: gold;
+	text-align: center;
+}
+
+h1 > b {
+	font-size: 110%;
+}
+
+header > small{
+	color: blue;
+	display: block;
+	font-size: 200%;
+	margin-bottom: 0.5em;
+}
+
+nav.row {
+	width: 100%;
+	text-align: center;
+}
+
+nav > button > a {
+	color: gold;
+}
+
+nav > button > a:hover{
+	color: white;
+}
