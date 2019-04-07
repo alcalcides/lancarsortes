@@ -1,10 +1,10 @@
-DROP DATABASE IF EXISTS sorteio_coop_db;
+DROP DATABASE IF EXISTS lancarSortes_db;
 
-CREATE DATABASE IF NOT EXISTS sorteio_coop_db
+CREATE DATABASE IF NOT EXISTS lancarSortes_db
   DEFAULT CHARACTER SET utf8
   DEFAULT COLLATE utf8_general_ci;
 
-USE sorteio_coop_db;
+USE lancarSortes_db;
 
 CREATE TABLE pessoas (
   idpessoas INT NOT NULL AUTO_INCREMENT,
@@ -25,12 +25,14 @@ CREATE TABLE sorteios (
   valorParticipacao VARCHAR(11),
   estado ENUM('PR', 'PS', 'OP', 'CC') NOT NULL,
   ganhador INT,
+  organizador INT NOT NULL,
   momentoSorteio DATETIME NOT NULL,
   momentoCadastro DATETIME NOT NULL,
   lugarSorteio VARCHAR(45) NOT NULL,
   formaRetirada VARCHAR(45) NOT NULL,
   PRIMARY KEY(idsorteio),
-  FOREIGN KEY(ganhador) REFERENCES pessoas(idpessoas)
+  FOREIGN KEY(ganhador) REFERENCES pessoas(idpessoas),
+  FOREIGN KEY(organizador) REFERENCES pessoas(idpessoas)
 )
 ENGINE = InnoDB 
 DEFAULT CHARSET = utf8;
