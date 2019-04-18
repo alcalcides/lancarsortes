@@ -15,7 +15,9 @@
 <body>
 	<div class="container-fluid">
 		<header>
-			<h1 class="display-3 text-center">Login</h1>
+			<?php require $hieAbs.'_views/_fragmentos/tituloPagina.php';
+                tituloPagina("Login");
+			?>
 			<?php require $hieAbs.'_views/_fragmentos/menuPrincipal.php';?>
 		</header>		
 		<main>	

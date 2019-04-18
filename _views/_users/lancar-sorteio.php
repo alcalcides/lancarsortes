@@ -29,12 +29,11 @@
 <body>
 	<div class="container-fluid" id="interface">
 		<header>
-			<h1 class="display-3 text-center">Sorteio <b>Cooperativo!</b> </h1>
-			<small class="text-center">Para o Bem de Todos&nbsp;=>&nbsp;Participe!</small>
+			<?php require $hieAbs.'_views/_fragmentos/tituloPagina.php';
+                tituloPagina("Lançar Sorteio"); ?>
     		<?php require $hieAbs . '_views/_fragmentos/navUser.php'?>
 		</header>
 		<main>
-			<h1>Lançar Sorteio</h1>
 			<form id="cadastrarSorteio" method="post" action=<?php echo $hieAbs . "_control/_users/cadastrarSorteio.php";?> >
 				<fieldset>
     				<legend>Atente-se ao bom preenchimento.</legend>

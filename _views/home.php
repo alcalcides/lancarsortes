@@ -15,9 +15,9 @@
 <body>
 	<div class="container-fluid" id="interface">
 		<header>
-			<h1 class="display-3 text-center">Lançar <b>Sortes!</b> </h1>
-			<small class="text-center">Para o Bem de Todos&nbsp;=>&nbsp;Participe!</small>
-			<?php require $hieAbs.'_views/_fragmentos/menuPrincipal.php';?>
+			<?php require_once $hieAbs . '_views/_fragmentos/tituloSite.php';?>
+			<?php require_once $hieAbs . '_views/_fragmentos/slogan.php';?>
+			<?php require_once $hieAbs.'_views/_fragmentos/menuPrincipal.php';?>
 		</header>
 		<main>
 			<h2>Lançamentos!</h2>

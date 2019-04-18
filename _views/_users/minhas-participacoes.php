@@ -18,11 +18,11 @@
 <body>
 	<div class="container-fluid" id="interface">
 		<header>
-			<h1 class="display-3 text-center">Lançar <b>Sortes!</b> </h1>
+			<?php require $hieAbs.'_views/_fragmentos/tituloPagina.php';
+                tituloPagina("Minhas participações"); ?>
     		<?php require $hieAbs . '_views/_fragmentos/navUser.php'?>
 		</header>
 		<main>
-			<h1>Minhas participações</h1>
 			<h2>Visão Geral</h2>
 			
             <table class="table table-striped table-bordered table-hover table-borderless table-sm">

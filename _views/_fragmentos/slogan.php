@@ -1,0 +1,1 @@
+<small class="text-center">Para o Bem de Todos&nbsp;=>&nbsp;Participe!</small>

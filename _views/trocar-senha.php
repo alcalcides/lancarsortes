@@ -15,7 +15,9 @@
 <body>
 	<div class="container-fluid" id="interface">
 		<header>
-			<h1 class="display-3 text-center">Trocar Senha</h1>
+			<?php require $hieAbs.'_views/_fragmentos/tituloPagina.php';
+                tituloPagina("Trocar Senha");
+			?>
 			<?php require $hieAbs.'_views/_fragmentos/menuPrincipal.php';?>
 		</header>
 		<main>

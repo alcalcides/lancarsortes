@@ -18,12 +18,12 @@ if(!isset($_SESSION["username"])){
 <body>
 	<div class="container-fluid" id="interface">
 		<header>
-			<h1 class="display-3 text-center">Sorteio <b>Cooperativo!</b> </h1>
-			<small class="text-center">Para o Bem de Todos&nbsp;=>&nbsp;Participe!</small>
+			<?php require $hieAbs.'_views/_fragmentos/tituloPagina.php';
+                tituloPagina("Meu perfil");
+			?>
     		<?php require $hieAbs . '_views/_fragmentos/navUser.php'?>
 		</header>
 		<main>
-			<h1>Meu Perfil</h1>
 			
 		</main>
 		<?php require $hieAbs . '_views/_fragmentos/footer.php';?>

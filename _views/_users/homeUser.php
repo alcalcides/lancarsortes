@@ -18,8 +18,10 @@
 <body>
 	<div class="container-fluid" id="interface">
 		<header>
-			<h1 class="display-3 text-center">Sorteio <b>Cooperativo!</b> </h1>
-			<small class="text-center">Para o Bem de Todos&nbsp;=>&nbsp;Participe!</small>
+			<?php require $hieAbs.'_views/_fragmentos/tituloPagina.php';
+                $titulo = "Olá, " . $_SESSION['username'];
+                tituloPagina($titulo);
+			?>
 			<?php require $hieAbs . '_views/_fragmentos/navUser.php'?>
 		</header>
 		<main>
