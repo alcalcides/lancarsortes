@@ -7,4 +7,4 @@ salvar modelo de sorteio
 script trocar senha
 botão submit de formulário precisa de parâmetro name?
 testar tratamento de horário ao cadastrar sorteio de usuário em outras zonas horárias
-criar novo banco de dados com o nome correto lancar_sortes_db
+ajustar tabela "sorteios" para receber campo "organizador" e "vencedor"
